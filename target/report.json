@@ -1,0 +1,434 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4924238880,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesse o sistema",
+            "match": {
+              "location": "Desafio1.que_eu_acesse_o_sistema()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2703764289,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "mudo o combo Select version para \"Bootstrap V4 Theme\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bootstrap V4 Theme\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Desafio1.mudo_o_combo_Select_version_para(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1201134858,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "seleciono o botão Add Customer",
+            "match": {
+              "location": "Desafio1.seleciono_o_botão_Add_Customer()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 119330013,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho o campo Name: \"Teste Sicredi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste Sicredi\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_Name(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 57476273,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o campo Last name: \"Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste\"",
+                  "offset": 28
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_Last_name(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 77372569,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencho o campo ContactFirstName: \"Sérgio Serejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sérgio Serejo\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_ContactFirstName(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 76976964,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencho o campo Phone: \"51 9999-9999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"51 9999-9999\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_Phone(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 96561552,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "preencho o campo AddressLine_um: \"Av Assis Brasil, 3970\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Av Assis Brasil, 3970\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_AddressLine_um(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63792514,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "preencho o campo AddressLine_dois: \"Torre D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Torre D\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_AddressLine_dois(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 71463691,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "preencho o campo City: \"Porto Alegre\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Porto Alegre\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_City(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 65692395,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "preencho o campo State: \"RS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RS\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_State(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 64487296,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "preencho o campo PostalCode: \"91000-000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"91000-000\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_PostalCode(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 62313809,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "preencho o campo Country: \"Brasil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brasil\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_Country(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 155772754,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "preencho o campo from Employeer: \"Fixter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fixter\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_from_Employeer(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 61190408,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "preencho o campo CreditLimit: \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Desafio1.preencho_o_campo_CreditLimit(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 74776855,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "seleciono no botão Save",
+            "match": {
+              "location": "Desafio1.seleciono_no_botão_Save()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1234541863,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "devo ver a mensagem \"Your data has been successfully stored into the database.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your data has been successfully stored into the database.\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Desafio1.devo_ver_a_mensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-08-27T01:19:18.602Z",
+        "line": 26,
+        "name": "Deletar Dados",
+        "description": "",
+        "id": "desafio-1;deletar-dados",
+        "after": [
+          {
+            "result": {
+              "duration": 118464957,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Desafio1.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1461935562,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "seleciono o link Go back to list",
+            "match": {
+              "location": "Desafio2.seleciono_o_link_Go_back_to_list()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 293054139,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "selecino o ícone da lupa (pesquisa) e digite o conteúdo do Name \"Teste Sicredi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste Sicredi\"",
+                  "offset": 64
+                }
+              ],
+              "location": "Desafio2.selecino_o_ícone_da_lupa_pesquisa_e_digite_o_conteúdo_do_Name(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1224562251,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "selecino o checkbox abaixo da palavra Actions",
+            "match": {
+              "location": "Desafio2.selecino_o_checkbox_abaixo_da_palavra_Actions()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 216430668,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "seleciono o botão Delete",
+            "match": {
+              "location": "Desafio2.seleciono_o_botão_Delete()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 110481998,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "devo ver a mensagem no popup \"Are you sure that you want to delete this 1 item?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Are you sure that you want to delete this 1 item?\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Desafio2.devo_ver_a_mensagem_no_popup(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 100777056,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "seleciono o botão Delete do popup",
+            "match": {
+              "location": "Desafio2.seleciono_o_botão_Delete_do_popup()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1138964232,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "devo ver a mensagem dentro de um box verde na parte superior direito da tela. \"Your data has been successfully deleted from the database.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your data has been successfully deleted from the database.\"",
+                  "offset": 78
+                }
+              ],
+              "location": "Desafio2.devo_ver_a_mensagem_dentro_de_um_box_verde_na_parte_superior_direito_da_tela(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Desafio 1",
+    "description": "  Eu como usuário do sistema\n  Desejo deletar meus dados.",
+    "id": "desafio-1",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Desafio2.feature",
+    "tags": []
+  }
+]
