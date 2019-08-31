@@ -1,13 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Desafio1.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Desafio2.feature");
 formatter.feature({
-  "name": "Desafio 1",
-  "description": "    Eu como usuário do sistema\n    Desejo armazenar meus dados.",
+  "name": "Desafio 2",
+  "description": "  Eu como usuário do sistema\n  Desejo deletar meus dados.",
   "keyword": "Funcionalidade"
 });
-formatter.scenario({
-  "name": "Gravar Dados no Banco de Dados",
+formatter.background({
+  "name": "",
   "description": "",
-  "keyword": "Cenário"
+  "keyword": "Contexto"
 });
 formatter.step({
   "name": "que eu acesse o sistema",
@@ -178,6 +178,82 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
+});
+formatter.scenario({
+  "name": "Deletar Dados",
+  "description": "",
+  "keyword": "Cenário"
+});
+formatter.step({
+  "name": "seleciono o link Go back to list",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "Desafio2.seleciono_o_link_Go_back_to_list()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "selecino o ícone da lupa (pesquisa) e digite o conteúdo do Name \"Teste Sicredi\"",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "Desafio2.selecino_o_ícone_da_lupa_pesquisa_e_digite_o_conteúdo_do_Name(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "selecino o checkbox abaixo da palavra Actions",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "Desafio2.selecino_o_checkbox_abaixo_da_palavra_Actions()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "seleciono o botão Delete",
+  "keyword": "E "
+});
+formatter.match({
+  "location": "Desafio2.seleciono_o_botão_Delete()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "devo ver a mensagem no popup \"Are you sure that you want to delete this 1 item?\"",
+  "keyword": "Então "
+});
+formatter.match({
+  "location": "Desafio2.devo_ver_a_mensagem_no_popup(String)"
+});
+formatter.result({
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[Are you sure that you want to delete this 1 item?]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat steps.Desafio2.devo_ver_a_mensagem_no_popup(Desafio2.java:37)\n\tat ✽.devo ver a mensagem no popup \"Are you sure that you want to delete this 1 item?\"(file:src/test/resources/features/Desafio2.feature:31)\n",
+  "status": "failed"
+});
+formatter.step({
+  "name": "seleciono o botão Delete do popup",
+  "keyword": "Quando "
+});
+formatter.match({
+  "location": "Desafio2.seleciono_o_botão_Delete_do_popup()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.step({
+  "name": "devo ver a mensagem dentro de um box verde na parte superior direito da tela. \"Your data has been successfully deleted from the database.\"",
+  "keyword": "Então "
+});
+formatter.match({
+  "location": "Desafio2.devo_ver_a_mensagem_dentro_de_um_box_verde_na_parte_superior_direito_da_tela(String)"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"
