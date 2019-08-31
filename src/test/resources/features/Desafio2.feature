@@ -1,6 +1,6 @@
 #language:pt
 
-Funcionalidade: Desafio 1
+Funcionalidade: Desafio 2
   Eu como usuário do sistema
   Desejo deletar meus dados.
 
